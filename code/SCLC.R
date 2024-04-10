@@ -19,7 +19,7 @@ library(ggnewscale)
 set.seed(1234)
 
 
-# Sup Fig 9 ####
+# Figure 3C-D ####
 ## SCLC-A / N ####
 sclc = readRDS('sclc.rds')
 DEG = FindAllMarkers(sclc, only.pos = F, logfc.threshold = 0, min.pct = 0.3, test.use = 'MAST')
